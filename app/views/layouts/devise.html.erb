@@ -11,9 +11,8 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body class="bg-slate-100">
-    <%= render "layouts/navbar" %>
-    <main class="container mx-auto my-4 px-5 w-full max-w-lg">
+  <body class="bg-slate-100 min-h-screen flex flex-col justify-center">
+    <main class="container mx-auto flex flex-col w-full max-w-md">
       <%= yield %>
     </main>
   </body>
