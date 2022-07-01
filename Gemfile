@@ -69,3 +69,5 @@ end
 
 
 gem "devise", "~> 4.8"
+
+gem "active_storage_validations", "~> 0.9.8"
